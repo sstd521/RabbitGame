@@ -10,6 +10,7 @@ cc.Class({
             default: null,
             type: cc.Node
         },
+        isRun: true,
     },
 
     // use this for initialization
@@ -25,14 +26,18 @@ cc.Class({
         },
     update: function ()
         {
-            let pos = this.node.convertToWorldSpaceAR(cc.Vec2.ZERO);
-            let targertPos = this.target.convertToWorldSpaceAR(cc.Vec2.ZERO);
-            let dis = pos.sub(targertPos);
-            let dest = this.screenMiddle.add(dis);
-            dest.x = cc.clampf(dest.x, this.minX, this.maxX);
-            dest.y =  this.minY;
-            // dest.y = cc.clampf(dest.y, this.minY, this.maxY);
-            this.node.position = this.node.parent.convertToNodeSpaceAR(dest);
+            if (this.isRun)
+                {
+
+                    let pos = this.node.convertToWorldSpaceAR(cc.Vec2.ZERO);
+                    let targertPos = this.target.convertToWorldSpaceAR(cc.Vec2.ZERO);
+                    let dis = pos.sub(targertPos);
+                    let dest = this.screenMiddle.add(dis);
+                    dest.x = cc.clampf(dest.x, this.minX, this.maxX);
+                    dest.y = this.minY;
+                    // dest.y = cc.clampf(dest.y, this.minY, this.maxY);
+                    this.node.position = this.node.parent.convertToNodeSpaceAR(dest);
+                }
 
         }
 });

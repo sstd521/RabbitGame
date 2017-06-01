@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cactus",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 4,
+  "speed": 0.6,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "56a37067-570e-491d-aec6-b4027093f88c"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "e74d7d6a-6e2b-4c95-a7ca-e24b73f1fef7"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "b1c23821-fc37-4098-84b5-5bcddab8e649"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "e3efaf29-50cc-48c6-bb2f-589532404c92"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

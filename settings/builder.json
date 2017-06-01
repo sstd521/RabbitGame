@@ -1,0 +1,24 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.Rabbit",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "47eda8cb-b425-4d06-b362-48cc05e9ad27",
+  "title": "Rabbit",
+  "webOrientation": "landscape"
+}

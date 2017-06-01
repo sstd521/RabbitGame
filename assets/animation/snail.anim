@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "snail",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 4,
+  "speed": 0.8,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "aaba7764-92b5-479f-90c8-974e4d9a3624"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "0fbf7861-537b-4393-b6ad-6207f9810dbc"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "eb72dc33-eeaa-4136-9bde-b59c9b30bae4"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "aadf2899-d393-4da7-b038-9f2e55898df1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

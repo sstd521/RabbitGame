@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "beetle",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 8,
+  "speed": 0.8,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6968d24a-3394-4b87-9ac2-7b28240a983a"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "607fb4d2-3da0-4ea6-9855-0636b4736875"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "814f53cb-96d0-46e9-8915-2d4f4fe91f29"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "aadb5684-ef80-4067-b0ae-9df2cca11c17"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "2e9189ba-5cf5-433d-9041-9cc0ec0880d2"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "4c36018f-85e7-489a-bc20-e5022201e041"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "6a990afa-d004-42c9-8699-081c221d9e50"
+            }
+          },
+          {
+            "frame": 0.875,
+            "value": {
+              "__uuid__": "1e01d7ec-d1c5-4fdb-96ad-03e4c85b2ece"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

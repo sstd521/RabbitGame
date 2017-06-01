@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="560" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tileset_2" tilewidth="32" tileheight="32" spacing="2" margin="1">
+  <image source="gfx/game/Tileset_4.png" width="884" height="476"/>
+ </tileset>
+ <layer name="layer3" width="560" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQqAMAxA0W56Db2G3v9cZszo0FLSvgfhrwmFtgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwB9HzFm4O9yoqn3/hGz2vjr2fVnXFXMX7g43qmrfPyGbva+OfV/W9cS8hbvDjara90/IZu+rY9+XOj5F5346gMAAAA==
+  </data>
+ </layer>
+ <layer name="layer2" width="560" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cyQkCQRAF0J6DaxKuSThOFqPmH4o/AwcRpKn34N/60HUpqqDp1gAAAAAAAAAAAAAAAAAAAAAAAIBv3IbWxuSeTMO/bwMA8NmcmeWRPJOX+QUAAIAO7LK/7u2wAEBHLpldruYXAAAAAAAAAOhatb8EqtULFS19l73KmXWySbb6AXSl2l8C1eqFipa+yz7kzDE5JWf9AAAAAAAAAAAAgB97AyyewwWAwAAA
+  </data>
+ </layer>
+ <layer name="layer1" width="560" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3b2Y3UQBQF0GFNgjUJ1iRY84A0IAtIA5JgTYI1BN6PpVGrRVfJz1PP9jnSVf3UR1mWl76uPjsDAAAAAAAAAAAAAACA9XsXeV9gfpV1XNR8AMa5FLkcuRa5PngtS3oVeX1u3JIPkY8F5ldZx0XNB2CcG5GbkTuRu2OXsqg3kbfnRgD261Tfqo+t717kfuRR5PHgtSxpy/0LAH1O9a362PqeRJ5GXkReDl7LkvQvAKfpHRitdV9La/+y9n0y+pfT7NMF9A6M1rqvpbV/Wfs+mT32L73Paft0ARittVfJnlfVHvsXz2kgm32vLK21V8meV9Ue+xeAbHvf9zr3/W3P73fZ+1qy51XdJ7PH/gWgmrU/v+e+v239/e5/sve1ZM+ruk9G/wIw3p6f33s3qldZ+z4Z/QsAjDOqV1n7Ppkt9y9V/m9cZR1Z869ErnaM1b6Ztpi+9275GIHjeq//ufeH6r1K1f4lc19O9jk/HHtV+b9xlXVkzb8Vud0xVvtm2mL63rvlYwSO673+594fqvcqVfuXzH052ef8cKSGB5GHHWO1d/YW0++NLR8jcFzv9T/3/lC9V6nav2SuK/ucH46TT5HPkS+Rr5Fvke8z1067Z5HnHWO1d/YW0++NLR8jcFzv9T/3/lC9V6nav2SuK/ucH46TH5GfkV+R35E/kb8z1067f6ZU+fSAwAAA
+  </data>
+ </layer>
+ <objectgroup name="finish" width="560" height="22">
+  <object x="14048" y="576"/>
+ </objectgroup>
+ <objectgroup name="checkpoint" width="560" height="22">
+  <object x="6112" y="224"/>
+ </objectgroup>
+ <objectgroup name="player" width="560" height="22">
+  <object x="96" y="480"/>
+ </objectgroup>
+ <objectgroup name="coins" width="560" height="22">
+  <object x="15392" y="160"/>
+  <object x="15392" y="224"/>
+  <object x="15584" y="416"/>
+  <object x="15584" y="480"/>
+  <object x="15968" y="416"/>
+  <object x="15968" y="480"/>
+  <object x="15776" y="160"/>
+  <object x="15776" y="224"/>
+  <object x="16096" y="160"/>
+  <object x="16096" y="224"/>
+  <object x="16288" y="416"/>
+  <object x="16288" y="480"/>
+  <object x="16480" y="160"/>
+  <object x="16480" y="224"/>
+  <object x="16672" y="416"/>
+  <object x="16672" y="480"/>
+  <object x="16864" y="160"/>
+  <object x="16864" y="224"/>
+  <object x="17056" y="416"/>
+  <object x="17056" y="480"/>
+  <object x="17248" y="160"/>
+  <object x="17248" y="224"/>
+  <object x="17440" y="416"/>
+  <object x="17440" y="480"/>
+  <object x="17632" y="160"/>
+  <object x="17632" y="224"/>
+  <object x="17824" y="416"/>
+  <object x="17824" y="480"/>
+  <object x="15199" y="411"/>
+  <object x="15200" y="480"/>
+  <object x="1952" y="128"/>
+  <object x="2016" y="128"/>
+  <object x="2080" y="128"/>
+  <object x="2144" y="128"/>
+  <object x="1952" y="192"/>
+  <object x="2014" y="190"/>
+  <object x="2080" y="192"/>
+  <object x="2144" y="192"/>
+  <object x="1952" y="256"/>
+  <object x="2016" y="256"/>
+  <object x="2080" y="256"/>
+  <object x="2144" y="256"/>
+  <object x="736" y="128"/>
+  <object x="736" y="192"/>
+  <object x="1120" y="128"/>
+  <object x="1120" y="192"/>
+  <object x="1504" y="128"/>
+  <object x="1504" y="192"/>
+  <object x="2560" y="128"/>
+  <object x="2560" y="192"/>
+  <object x="2560" y="256"/>
+  <object x="2944" y="128"/>
+  <object x="2944" y="192"/>
+  <object x="2944" y="256"/>
+  <object x="3488" y="512"/>
+  <object x="3552" y="512"/>
+  <object x="3424" y="512"/>
+  <object x="4128" y="512"/>
+  <object x="4192" y="512"/>
+  <object x="4064" y="512"/>
+  <object x="4768" y="512"/>
+  <object x="4832" y="512"/>
+  <object x="4704" y="512"/>
+  <object x="5344" y="128"/>
+  <object x="5344" y="192"/>
+  <object x="5344" y="256"/>
+  <object x="5760" y="128"/>
+  <object x="5760" y="192"/>
+  <object x="5760" y="256"/>
+  <object x="7200" y="288"/>
+  <object x="7264" y="288"/>
+  <object x="7328" y="288"/>
+  <object x="7392" y="288"/>
+  <object x="9280" y="160"/>
+  <object x="9280" y="224"/>
+  <object x="9280" y="288"/>
+  <object x="9664" y="160"/>
+  <object x="9664" y="224"/>
+  <object x="9664" y="288"/>
+  <object x="11072" y="192"/>
+  <object x="11136" y="192"/>
+  <object x="11200" y="192"/>
+  <object x="11392" y="96"/>
+  <object x="11456" y="96"/>
+  <object x="11520" y="96"/>
+  <object x="11712" y="96"/>
+  <object x="11776" y="96"/>
+  <object x="11840" y="96"/>
+  <object x="12032" y="192"/>
+  <object x="12096" y="192"/>
+  <object x="12160" y="192"/>
+  <object x="12640" y="160"/>
+  <object x="12640" y="224"/>
+  <object x="12640" y="288"/>
+  <object x="13088" y="160"/>
+  <object x="13088" y="224"/>
+  <object x="13088" y="288"/>
+ </objectgroup>
+ <objectgroup name="hidden_bonus_level" width="560" height="22">
+  <object x="14944" y="160">
+   <properties>
+    <property name="1" value="clouds_enter"/>
+   </properties>
+  </object>
+  <object x="14752" y="672">
+   <properties>
+    <property name="1" value="isHiddenBonus"/>
+    <property name="2" value="cloud"/>
+   </properties>
+  </object>
+  <object x="15040" y="672" width="2848" height="32">
+   <properties>
+    <property name="1" value="clouds_exit"/>
+   </properties>
+  </object>
+  <object x="11936" y="64">
+   <properties>
+    <property name="1" value="clouds_finish"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="bonus_blocks" width="560" height="22"/>
+ <objectgroup name="hidden_blocks" width="560" height="22">
+  <object x="14880" y="448">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="14944" y="448">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="14944" y="224">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="14880" y="224">
+   <properties>
+    <property name="1" value="mush"/>
+   </properties>
+  </object>
+  <object x="10208" y="160">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="10144" y="160">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="10528" y="160">
+   <properties>
+    <property name="1" value="coin"/>
+   </properties>
+  </object>
+  <object x="10592" y="160">
+   <properties>
+    <property name="1" value="diamond"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="destroyable_blocks" width="560" height="22">
+  <object x="128" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="192" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="256" y="384">
+   <properties>
+    <property name="1" value="1"/>
+    <property name="2" value="coin"/>
+   </properties>
+  </object>
+  <object x="320" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="320" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="256" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="192" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="128" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="32">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="96">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="224">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="288">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="32">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="96">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="160">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="224">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="288">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2240" y="352">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1856" y="352">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1920" y="352">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2176" y="352">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1920" y="416">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="2176" y="416">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="1984" y="416">
+   <properties>
+    <property name="1" value="1"/>
+    <property name="2" value="star"/>
+   </properties>
+  </object>
+  <object x="2112" y="416">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="10208" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="10272" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="10336" y="384">
+   <properties>
+    <property name="1" value="1"/>
+    <property name="2" value="baloon"/>
+   </properties>
+  </object>
+  <object x="10400" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="10464" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object x="10528" y="384">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="stand_destroy_blocks" width="560" height="22"/>
+ <objectgroup name="enemies" width="560" height="22">
+  <object x="10304" y="544">
+   <properties>
+    <property name="1" value="hedgehog"/>
+   </properties>
+  </object>
+  <object x="10560" y="544">
+   <properties>
+    <property name="1" value="hedgehog"/>
+   </properties>
+  </object>
+  <object x="11008" y="416">
+   <properties>
+    <property name="1" value="snowman"/>
+   </properties>
+  </object>
+  <object x="11648" y="160">
+   <properties>
+    <property name="1" value="snowman"/>
+   </properties>
+  </object>
+  <object x="12256" y="416">
+   <properties>
+    <property name="1" value="turtle"/>
+   </properties>
+  </object>
+  <object x="256" y="320">
+   <properties>
+    <property name="1" value="turtle"/>
+   </properties>
+  </object>
+  <object x="512" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="576" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="896" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="960" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="1280" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="1344" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="1664" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="1760" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="2400" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="2752" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="3168" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="3744" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="3872" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="4384" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="4512" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="5152" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="5056" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="5568" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="5984" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6208" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6272" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6464" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6528" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6720" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="6784" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="7008" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="7520" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="7872" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="8096" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="8320" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="8544" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="8800" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="9056" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="9472" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="9856" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="10816" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="11136" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="11456" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="11776" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="12096" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="12448" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="12864" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="13312" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="13696" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="13856" y="640">
+   <properties>
+    <property name="1" value="fireball"/>
+   </properties>
+  </object>
+  <object x="2464" y="160">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="3936" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="4736" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="7328" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="8512" y="64">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="9088" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="10752" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+  <object x="13088" y="96">
+   <properties>
+    <property name="1" value="bee"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemies_obstacles" width="560" height="22"/>
+ <objectgroup name="trampoline" width="560" height="22"/>
+ <objectgroup name="platform_horizontal" width="560" height="22">
+  <object x="7168" y="480">
+   <properties>
+    <property name="1" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="platform_vertical" width="560" height="22">
+  <object x="736" y="576"/>
+  <object x="1120" y="576"/>
+  <object x="1504" y="576"/>
+  <object x="7680" y="576"/>
+ </objectgroup>
+ <objectgroup name="platform_vertical_multiple" width="560" height="22"/>
+ <objectgroup name="platform_gravity" width="560" height="22"/>
+ <objectgroup name="platform_zigzag" width="560" height="22">
+  <object x="2560" y="608"/>
+  <object x="2944" y="608"/>
+  <object x="5344" y="608"/>
+  <object x="5760" y="608"/>
+  <object x="9280" y="608"/>
+  <object x="9664" y="608"/>
+  <object x="12640" y="608"/>
+  <object x="13056" y="608"/>
+ </objectgroup>
+ <objectgroup name="platform_motor" width="560" height="22"/>
+ <objectgroup name="platform_motor_big" width="560" height="22">
+  <object x="3488" y="384"/>
+  <object x="4128" y="384"/>
+  <object x="4768" y="384"/>
+ </objectgroup>
+ <objectgroup name="trap" width="560" height="22"/>
+ <objectgroup name="physics" width="560" height="22">
+  <object x="13408" y="192" width="128" height="512"/>
+  <object x="14784" y="-448" width="64" height="1152"/>
+  <object x="17888" y="0" width="32" height="704"/>
+  <object x="14848" y="640" width="192" height="32"/>
+  <object x="15168" y="160" width="64" height="32"/>
+  <object x="15168" y="544" width="64" height="32"/>
+  <object x="15360" y="352" width="64" height="32"/>
+  <object x="15552" y="544" width="64" height="32"/>
+  <object x="15552" y="160" width="64" height="32"/>
+  <object x="15744" y="320" width="64" height="32"/>
+  <object x="15936" y="160" width="64" height="32"/>
+  <object x="16064" y="320" width="64" height="32"/>
+  <object x="15936" y="544" width="64" height="32"/>
+  <object x="16256" y="544" width="64" height="32"/>
+  <object x="16256" y="160" width="64" height="32"/>
+  <object x="16448" y="320" width="64" height="32"/>
+  <object x="16640" y="160" width="64" height="32"/>
+  <object x="16640" y="544" width="64" height="32"/>
+  <object x="16832" y="320" width="64" height="32"/>
+  <object x="17024" y="544" width="64" height="32"/>
+  <object x="17024" y="160" width="64" height="32"/>
+  <object x="17216" y="320" width="64" height="32"/>
+  <object x="17408" y="160" width="64" height="32"/>
+  <object x="17408" y="544" width="64" height="32"/>
+  <object x="17600" y="320" width="64" height="32"/>
+  <object x="17792" y="160" width="64" height="32"/>
+  <object x="17792" y="544" width="64" height="32"/>
+  <object x="0" y="576" width="448" height="128"/>
+  <object x="1824" y="576" width="448" height="128"/>
+  <object x="6080" y="320" width="64" height="32"/>
+  <object x="6336" y="416" width="64" height="32"/>
+  <object x="6592" y="416" width="64" height="32"/>
+  <object x="6848" y="480" width="64" height="32"/>
+  <object x="7936" y="256" width="64" height="32"/>
+  <object x="8192" y="256" width="64" height="32"/>
+  <object x="8384" y="448" width="64" height="32"/>
+  <object x="8640" y="448" width="64" height="32"/>
+  <object x="8896" y="448" width="64" height="32"/>
+  <object x="10016" y="576" width="704" height="128"/>
+  <object x="10912" y="448" width="128" height="256"/>
+  <object x="11232" y="320" width="128" height="384"/>
+  <object x="11552" y="192" width="128" height="512"/>
+  <object x="11872" y="320" width="128" height="384"/>
+  <object x="12192" y="448" width="128" height="256"/>
+  <object x="14016" y="576" width="768" height="128"/>
+ </objectgroup>
+</map>

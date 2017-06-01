@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bonusBlock",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 5,
+  "speed": 0.8,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cb898fda-948d-4c00-a8ed-c1091ca944e4"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "32df3261-d4c2-4a8d-b006-dfe8fd6c0d59"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "e0a06f57-7189-4ad9-b778-bc3ff97d1097"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "c3340fd8-c246-4884-b577-63e98413ce1e"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "3b4164eb-e0ce-400d-a495-9f0f320c2d03"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b1a19755-3b62-4c46-9554-1bd014e51c65",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "dpad_button": {
+      "ver": "1.0.3",
+      "uuid": "26e87745-4e7f-4159-9af0-c6113fdf1a9c",
+      "rawTextureUuid": "b1a19755-3b62-4c46-9554-1bd014e51c65",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 8,
+      "width": 78,
+      "height": 44,
+      "rawWidth": 83,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

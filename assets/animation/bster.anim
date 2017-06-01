@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bster",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 4,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "553f4c50-0034-4fdd-8d09-109365cb96aa"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "08b24288-2784-4c4a-862c-8dc56edd4049"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "176c9a25-37db-42b1-ab72-f35cb7940bc4"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "6e069f5a-ba89-4eb4-b6a2-8f0636d0a4a9"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

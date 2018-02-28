@@ -222,6 +222,7 @@ cc.Class({
         this.life = 0;
         this.node.parent.getComponent('Cameras').isRun = false;
         Global.playIsAlive = false;
+        setTimeout(()=>{this.node.destroy()},2100)
     },
     OverNodeLoad(){
         if (this.life == 0)

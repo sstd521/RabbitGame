@@ -195,18 +195,18 @@ cc.Class({
                 {
                     // this.collisionName[i] = i.toString();
                     var collisionName = i.toString();
-                    this.collisions[i] = collisionPoints.getObject(collisionName);
-                    var collisionNode = this.collisions[i].sgNode;
+                    var collider = collisionPoints.getObject(collisionName);
+                    var collisionNode = collider.sgNode;
                     var node = cc.instantiate(this.ColliderPreName);
                     // var node = new cc.Node();
-                    node.setAnchorPoint(0, 0);
+                    node.setAnchorPoint(0.5, 0.5);
                     node.x = collisionNode.x;
                     node.height = collisionNode.height;
                     node.y = collisionNode.y - collisionNode.height;
                     node.width = collisionNode.width;
                     node.addComponent(cc.BoxCollider);
-                    node.getComponent(cc.BoxCollider).size = new cc.size(collisionNode.width, collisionNode.height);
-                    node.getComponent(cc.BoxCollider).offset = new cc.size(collisionNode.width / 2, collisionNode.height / 2);
+                    node.getComponent(cc.BoxCollider).size =cc.size(collisionNode.width, collisionNode.height);
+                    node.getComponent(cc.BoxCollider).offset=cc.v2(collisionNode.width / 2, collisionNode.height / 2);
                     node.getComponent(cc.BoxCollider).tag = 5;
                     this.node.addChild(node);
                 }
